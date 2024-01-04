@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="DhoYuYeong">
+  <meta name="keywords" content="소고기 MBTI로 최애 고기 찾기">
+  <meta name="description" content="소고기 MBTI로 최애 고기 찾기">
+
+  <!-- sns share -->
+  <meta property="og:url" content="https://valueupgaemi.netlify.app" />
+  <meta property="og:title" content="소고기 MBTI" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/main.png" />
+  <meta property="og:description" content="소고기 MBTI로 최애 고기 찾기" />
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="img/favicon.ico" >
+  <title>소고기 MBTI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/result.css">
+  
+</head>
+
+<body>
+  <div class="container">
+    <section id="main" class="mx-auto my-3 py-3 px-3">
+      <h2>소고기 MBTI로 최애 고기 찾기</h2>
+      <br>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-6 mx-auto">
+        <img src="./img/main.png" alt="mainImage" class="img-fluid">
+      </div>
+      <br>
+      <h4>
+        2023-1학기 실전 sns 마케팅 3조에서 만든 MBTI 사이트입니다! <br><br>
+        아래 시작하기 버튼을 눌러주세요
+      </h4>
+      <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()">시작하기</button>
+    </section>
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar">
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+
+      </div>
+      <div class="answerBox">
+
+      </div>
+    </section>
+    <section id="result" class="mx-auto my-3 py-3 px-3">
+      <h1>나의 최애 고기 부위는?!</h1>
+      <div class="resultname">
+
+      </div>
+      <div id="resultImg" class="my-3 col-lg-4 col-md-6 col-sm-8 col-8 mx-auto">
+
+      </div>
+      
+      <div class="resultDesc">
+      
+      </div>
+        <button type="button" class="w-btn-neon2 mt-3" onclick="copyUrl()">링크 복사</button>
+        <br>
+        <br>
+        <p style="font-size:10px">위 내용은 주관적인 해석에 불과하며 <br> 과학적인 근거에 따른 결과가 아닙니다</p>
+    </section>
+    <script src="./js/data.js" charset="utf-8"></script>
+    <script src="./js/start.js" charset="utf-8"></script>
+    <script src="./js/share.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>

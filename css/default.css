@@ -1,0 +1,8 @@
+body{
+    background-color: pink;
+  }
+  
+  *{
+    font-family: 'ari';
+    src: url('\css\Arita4.0_M.ttf') format('truetype');
+  }
